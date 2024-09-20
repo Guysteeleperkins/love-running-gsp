@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -99,7 +99,7 @@ main {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 #social-networks i {
@@ -110,7 +110,7 @@ main {
 
 
 
-/* Media query: tablets and largger (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -143,12 +143,12 @@ main {
 
     /* Main content */
     main {
-        /* Push main content down to accommodate lartger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
 
-/* Larger devices (laptops and desktops, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
