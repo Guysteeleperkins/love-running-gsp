@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -92,6 +92,7 @@ main {
     /* main hidden When header became fixed */
     margin-top: 47px;
 }
+
 /* Footer */
 footer {
     background-color: orange;
@@ -99,6 +100,7 @@ footer {
 
 /* Media query: tablets and largger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -113,7 +115,7 @@ footer {
 
     }
 
-    #mengtiu > li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -127,7 +129,7 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /* Main content*/
+    /* Main content */
     main {
         /* Push main content down to accommodate lartger header */
         margin-top: 79px;
