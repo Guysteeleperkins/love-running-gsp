@@ -102,6 +102,7 @@ main {
 }
 
 #cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, 0.7);
     font-size: 130%;
     position: absolute;
@@ -114,6 +115,53 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+
+/* Reasons Section - Why love running with us */
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical > div, 
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Footer */
 #social-networks {
