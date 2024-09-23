@@ -92,7 +92,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* main hidden When header became fixed */
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
 }
 
@@ -121,7 +121,6 @@ main {
 }
 
 /* Reasons Section - Why love running with us */
-
 #reasons {
     margin: 20px auto;
     width: 90%;
