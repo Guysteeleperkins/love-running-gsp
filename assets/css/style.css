@@ -1,4 +1,4 @@
-/* Google donts import */
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Oswald:wght@200..700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -166,11 +166,11 @@ main {
     justify-content: center;
 }
 
-/* Meet-ups section*/
+/* Meet-ups section */
 
 #times {
     background: url(../images/dublin-city.webp) no-repeat center center/cover;
-    /* Handles resposivity without the need for a media query */
+    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;   
 }
@@ -180,7 +180,7 @@ main {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    /* This will not wrrap on screens of less than 400px wide.
+    /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row. This is due to each item filling up to 200px. 
     If less than 400px then 2 items cannot fit so 1nwill fill the row */
     flex-basis: 200px;
@@ -220,6 +220,13 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: Large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -280,6 +287,10 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -287,6 +298,10 @@ main {
 
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
 
